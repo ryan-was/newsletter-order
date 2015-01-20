@@ -1,0 +1,10 @@
+{
+  "name": "newsletter-order/newsletter-order",
+  "description": "Allows for the ordering of posts and custom post types through a simple drag-and-drop interface",
+  "keywords": ["wordpress", "plugin", "newsletter-order"],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "1.0.*"
+  }
+}
