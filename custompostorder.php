@@ -6,7 +6,7 @@
 Plugin Name: Newsletter Order
 Plugin URI: http://drewgourley.com/order-up-custom-ordering-for-wordpress/
 Description: Allows for the ordering of posts and custom post types through a simple drag-and-drop interface.
-Version: 2.3
+Version: 2.3.1
 Author: Drew Gourley
 Author URI: http://drewgourley.com/
 License: GPLv2 or later
@@ -242,7 +242,7 @@ function custompostorder() {
             <td><input name="custompostorder_settings[per_page]" type="text" value="<?php echo $options['per_page']; ?>" style="width:48px" /></td>
             </tr>
             <tr valign="top"><th scope="row">Post Type</th>
-            <td><input name="custompostorder_settings[post_type]" type="text" value="<?php echo $options['post_type']; ?>" style="width:48px" /></td>
+            <td><input name="custompostorder_settings[post_type]" type="text" value="<?php echo $options['post_type']; ?>" style="width:100px" /></td>
             </tr>
         </table>
         <input type="hidden" name="custompostorder_settings[update]" value="Updated" />
